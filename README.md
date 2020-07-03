@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-06-29 18:01:29
- * @LastEditTime: 2020-07-01 09:41:45
+ * @LastEditTime: 2020-07-03 08:46:05
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \test1\README.md
@@ -26,6 +26,9 @@ components: {vue-custom-switch}
 <template>
 <vue-custom-switch />
 ```
+
+## 打包
+打包使用命令 npm run build-bundle
 
 ### 代码详见
 See [git](https://github.com/ABoyCDog/vue-custom-switch/).
