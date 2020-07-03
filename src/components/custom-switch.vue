@@ -1,7 +1,7 @@
 <!--
  * @Author: Liuzq
  * @Date: 2020-06-28 10:34:06
- * @LastEditTime: 2020-07-01 11:30:00
+ * @LastEditTime: 2020-07-03 09:29:39
  * @LastEditors: Please set LastEditors
  * @Description: test publish npm component
  * @FilePath: \my\src\views\switch\custom-switch.vue
@@ -9,8 +9,6 @@
 <template>
   <div>
     <span class="weui-switch" :class="{'weui-switch-on' : me_checked}" :value="value" @click="toggle"></span>
-    <!-- 尝试内联样式是没有问题的 -->
-    <div style="width:0px;height:0px;border: 50px solid;border-color: transparent transparent blue;"></div>
   </div>
 </template>
 

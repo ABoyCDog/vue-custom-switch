@@ -1,6 +1,6 @@
 {
   "name": "vue-custom-switch",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "author": "liuzq <178657263@qq.com>",
   "description": "自定义switch组件",
   "private": false,
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/ABoyCDog/vue-custom-switch"
   },
-  "main": "dist/vue-custom-switch.umd.js",
+  "main": "dist/vue-custom-switch.umd.min.js",
   "style": "dist/vue-custom-switch.css",
   "files": [
     "dist",
