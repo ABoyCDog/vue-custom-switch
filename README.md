@@ -1,24 +1,35 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-06-29 18:01:29
+ * @LastEditTime: 2020-07-01 09:41:45
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \test1\README.md
+--> 
 # test1
 
-## Project setup
+## Description
+自定义switch组件
+
+## 安装
 ```
-npm install
+npm install vue-custom-switch
 ```
 
-### Compiles and hot-reloads for development
+## 使用
 ```
-npm run serve
+<script>
+import vue-custom-switch from 'vue-custom-switch'
+...
+components: {vue-custom-switch}
+
+<template>
+<vue-custom-switch />
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 代码详见
+See [git](https://github.com/ABoyCDog/vue-custom-switch/).
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 存在问题
+~~打包完后，样式无法跟随，package.json中添加style字段不生效，目前只是在打包文件中手动引入css文件~~
+  打包完dist里已经有css包，但是没有跟js模块关联上，也就是install后组件没有样式的问题

@@ -1,14 +1,36 @@
 {
-  "name": "test1",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-custom-switch",
+  "version": "0.0.16",
+  "author": "liuzq <178657263@qq.com>",
+  "description": "自定义switch组件",
+  "private": false,
+  "keywords": [
+    "vue",
+    "custom-switch"
+  ],
+  "homepage": "https://github.com/ABoyCDog/vue-custom-switch",
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/ABoyCDog/vue-custom-switch"
+  },
+  "main": "dist/vue-custom-switch.umd.js",
+  "style": "dist/vue-custom-switch.css",
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name vue-custom-switch ./src/index.js",
+    "pub": "npm run build-bundle && npm publish"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.9",
+    "sass-loader": "^8.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
