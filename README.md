@@ -1,12 +1,12 @@
 <!--
  * @Author: your name
  * @Date: 2020-06-29 18:01:29
- * @LastEditTime: 2020-07-03 08:46:05
+ * @LastEditTime: 2020-07-03 08:48:52
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \test1\README.md
+ * @FilePath: \vue-custom-switch\README.md
 --> 
-# test1
+# vue-custom-switch
 
 ## Description
 自定义switch组件
